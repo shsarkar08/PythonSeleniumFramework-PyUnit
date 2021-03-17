@@ -1,0 +1,95 @@
+2020-05-03 20:56:41,097 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:56:49,689 dev 20 Login_LandingPage.py || INFO || Log In Successful
+2020-05-03 20:56:50,964 dev 20 HomePage.py || INFO || Username ~ Shahnawaz Sarkar
+2020-05-03 20:56:55,024 dev 20 HomePage.py || INFO || https://dev97889.service-now.com/nav_to.do?uri=%2Fhome_splash.do%3Fsysparm_direct%3Dtrue
+2020-05-03 20:56:57,311 dev 20 HomePage.py || INFO || Query applied as ~ Problem
+2020-05-03 20:56:58,110 dev 20 HomePage.py || INFO || Clicked on Create New
+2020-05-03 20:57:07,309 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:57:12,340 dev 20 ServiceTicket.py || INFO || Number Input Field is Enabled ? True
+2020-05-03 20:57:12,363 dev 20 ServiceTicket.py || INFO || Problem Number: PRB0040006 
+2020-05-03 20:57:15,651 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:15,666 dev 20 BasePage.py || INFO || Current New Window :Tasks | ServiceNow 
+2020-05-03 20:57:15,803 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:15,850 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:57:20,064 dev 20 ServiceTicket.py || INFO || Longest s-category found :MS SQL Server 
+2020-05-03 20:57:23,683 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:23,698 dev 20 BasePage.py || INFO || Current New Window :Services | ServiceNow 
+2020-05-03 20:57:25,941 dev 20 ServiceTicket.py || INFO || Service Selected 
+2020-05-03 20:57:25,995 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:26,041 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:57:32,083 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:32,105 dev 20 BasePage.py || INFO || Current New Window :Configuration Items | ServiceNow 
+2020-05-03 20:57:32,130 dev 20 ServiceTicket.py || INFO || Total Conf Item ~ 2,737
+2020-05-03 20:57:34,392 dev 20 ServiceTicket.py || INFO || Configuration item selected
+2020-05-03 20:57:34,476 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040006 | Problem | ServiceNow 
+2020-05-03 20:57:34,534 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:57:35,298 dev 20 ServiceTicket.py || INFO || State Value Fetched As ~New 
+2020-05-03 20:57:44,601 dev 20 ServiceTicket.py || INFO || Ticket Submitted
+2020-05-03 20:57:44,725 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 20:57:44,749 dev 10 ProblemsPage.py || DEBUG || Search-icon Expanded ? true 
+2020-05-03 20:57:44,749 dev 40 ProblemsPage.py || ERROR || Search Menu is Already Expanded
+2020-05-03 20:57:48,451 dev 20 ProblemsPage.py || INFO || Search Rows Found :1 
+2020-05-03 20:57:48,486 dev 20 ProblemsPage.py || INFO || Found Row/Rows with problem statement : TESTLEAF CONTEST - 20:57:34 
+2020-05-03 20:57:53,572 dev 20 Login_LandingPage.py || INFO || Logged Out Successfully
+2020-05-03 20:57:57,461 dev 20 Test_SN_Auto.py || INFO || Test SN_Tests.Test_SN_Auto has been executed Successfully
+2020-05-03 19:11:18,507 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:11:23,716 dev 20 Login_LandingPage.py || INFO || Log In Successful
+2020-05-03 19:11:24,490 dev 20 HomePage.py || INFO || Username ~ Shahnawaz Sarkar
+2020-05-03 19:11:28,252 dev 20 HomePage.py || INFO || https://dev97889.service-now.com/nav_to.do?uri=%2Fhome_splash.do%3Fsysparm_direct%3Dtrue
+2020-05-03 19:11:30,956 dev 20 HomePage.py || INFO || Query applied as ~ Problem
+2020-05-03 19:11:31,934 dev 20 HomePage.py || INFO || Clicked on Create New
+2020-05-03 19:11:34,066 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:11:39,095 dev 20 ServiceTicket.py || INFO || Number Input Field is Enabled ? True
+2020-05-03 19:11:39,111 dev 20 ServiceTicket.py || INFO || Problem Number: PRB0040007 
+2020-05-03 19:11:41,655 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:42,678 dev 20 BasePage.py || INFO || Current New Window :Tasks | ServiceNow 
+2020-05-03 19:11:42,837 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:42,930 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:11:47,190 dev 20 ServiceTicket.py || INFO || Longest s-category found :MS SQL Server 
+2020-05-03 19:11:50,531 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:51,552 dev 20 BasePage.py || INFO || Current New Window :Services | ServiceNow 
+2020-05-03 19:11:53,802 dev 20 ServiceTicket.py || INFO || Service Selected 
+2020-05-03 19:11:53,852 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:53,879 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:11:58,387 dev 20 BasePage.py || INFO || Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:59,410 dev 20 BasePage.py || INFO || Current New Window :Configuration Items | ServiceNow 
+2020-05-03 19:11:59,441 dev 20 ServiceTicket.py || INFO || Total Conf Item ~ 2,737
+2020-05-03 19:12:01,751 dev 20 ServiceTicket.py || INFO || Configuration item selected
+2020-05-03 19:12:01,821 dev 20 BasePage.py || INFO || Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:12:01,929 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:12:02,396 dev 20 ServiceTicket.py || INFO || State Value Fetched As ~New 
+2020-05-03 19:12:08,804 dev 20 ServiceTicket.py || INFO || Ticket Submitted
+2020-05-03 19:12:08,846 dev 20 BasePage.py || INFO || successfully switched to iframe
+2020-05-03 19:12:08,857 dev 10 ProblemsPage.py || DEBUG || Search-icon Expanded ? true 
+2020-05-03 19:12:08,858 dev 40 ProblemsPage.py || ERROR || Search Menu is Already Expanded
+2020-05-03 19:12:11,903 dev 20 ProblemsPage.py || INFO || Search Rows Found :1 
+2020-05-03 19:12:11,934 dev 20 ProblemsPage.py || INFO || Found Row/Rows with problem statement : TESTLEAF CONTEST - 19:12:01 
+2020-05-03 19:12:14,671 dev 20 Login_LandingPage.py || INFO || Logged Out Successfully
+2020-05-03 19:12:17,960 dev 20 Test_SN_Auto.py || INFO || Test SN_Tests.Test_SN_Auto has been executed Successfully
+2020-07-11 06:28:47,294 dev 40 BasePage.py || ERROR || Message: gsft_main
+
+2020-07-11 06:28:59,333 dev 40 BasePage.py || ERROR || Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="user_name"]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-11 06:29:09,364 dev 40 BasePage.py || ERROR || Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="user_password"]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-11 06:29:21,890 dev 40 BasePage.py || ERROR || Message: 
+
+2020-07-11 06:29:21,890 dev 20 Login_LandingPage.py || INFO || Log In Successful
+2020-07-11 06:29:31,916 dev 40 BasePage.py || ERROR || Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='user_info_dropdown']//span[contains(@class,'user-name')]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-11 06:29:31,916 dev 40 BasePage.py || ERROR || 'NoneType' object has no attribute 'text'
+2020-07-11 06:29:31,916 dev 20 HomePage.py || INFO || Username ~ None
+2020-07-11 06:29:31,924 dev 20 HomePage.py || INFO || https://signon.service-now.com/ssologin.do?RelayState=%252Fapp%252Ftemplate_saml_2_0%252Fk317zlfESMUHAFZFXMVB%252Fsso%252Fsaml%253FRelayState%253Dhttps%25253A%25252F%25252Fdeveloper.servicenow.com%25252Fsaml_redirector.do%25253Fsysparm_nostack%25253Dtrue%252526sysparm_uri%25253D%2525252Fnav_to.do%2525253Furi%2525253D%252525252Fssologin.do%252525253FrelayState%252525253Dhttps%25252525253A%25252525252F%25252525252Fdeveloper.servicenow.com%25252525252Fdev.do%252525252523%252521%25252525252Fhome%25252525253Fwu%25252525253Dtrue&redirectUri=&email=
+2020-07-11 06:29:43,950 dev 40 BasePage.py || ERROR || Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="filter"]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-11 06:29:43,950 dev 20 HomePage.py || INFO || Query applied as ~ None
+2020-07-11 06:29:54,499 dev 40 BasePage.py || ERROR || Message: 
+
+2020-07-11 06:29:54,499 dev 20 HomePage.py || INFO || Clicked on Create New
+2020-07-11 06:30:16,549 dev 40 BasePage.py || ERROR || Message: gsft_main
+
+2020-07-11 06:30:31,621 dev 20 Test_SN_Auto.py || INFO || Test SN_Tests.Test_SN_Auto has been executed Successfully

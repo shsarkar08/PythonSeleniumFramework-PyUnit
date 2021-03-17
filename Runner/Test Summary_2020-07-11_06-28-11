@@ -1,0 +1,33 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test_ServiceNow (SN_Tests.Test_SN_Auto.TestServiceNow) ... ERROR (142.482376)s
+
+======================================================================
+ERROR [142.482376s]: SN_Tests.Test_SN_Auto.TestServiceNow.test_ServiceNow
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\SN_Tests\Test_SN_Auto.py", line 55, in test_ServiceNow
+    self.sticket.get_problem_no()
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\Resources\PageObjects\ServiceTicket.py", line 27, in get_problem_no
+    is_enabled = self.element_enabled('xpath',Locators.PROBLEM_NUMBER)
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\Resources\PageObjects\BasePage.py", line 112, in element_enabled
+    return self.driver.find_element(self.get_locator_type(locator_type),locator_properties).is_enabled()
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ShahVM03\PyCharm Projects\SN_Automation\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='problem.number']"}
+  (Session info: chrome=83.0.4103.116)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0:02:22
+
+FAILED
+ (Errors=1)
+
+Generating HTML reports... 
+..\Reports\TestResults_SN_Tests.Test_SN_Auto.TestServiceNow_2020-07-11_06-28-11.html

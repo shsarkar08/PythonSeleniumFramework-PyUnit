@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Test Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-05-03 19:11:11</p>
+                <p class='attribute'><strong>Duration: </strong>69.03 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>SN_Tests.Test_SN_Auto.TestServiceNow</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_ServiceNow</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>2020-05-03 19:11:18,507 dev: successfully switched to iframe
+2020-05-03 19:11:23,716 dev: Log In Successful
+2020-05-03 19:11:24,490 dev: Username ~ Shahnawaz Sarkar
+2020-05-03 19:11:28,252 dev: https://dev97889.service-now.com/nav_to.do?uri=%2Fhome_splash.do%3Fsysparm_direct%3Dtrue
+2020-05-03 19:11:30,956 dev: Query applied as ~ Problem
+2020-05-03 19:11:31,934 dev: Clicked on Create New
+2020-05-03 19:11:34,066 dev: successfully switched to iframe
+2020-05-03 19:11:39,095 dev: Number Input Field is Enabled ? True
+2020-05-03 19:11:39,111 dev: Problem Number: PRB0040007 
+2020-05-03 19:11:41,655 dev: Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:42,678 dev: Current New Window :Tasks | ServiceNow 
+Task selected
+2020-05-03 19:11:42,837 dev: Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:42,930 dev: successfully switched to iframe
+2020-05-03 19:11:47,190 dev: Longest s-category found :MS SQL Server 
+2020-05-03 19:11:50,531 dev: Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:51,552 dev: Current New Window :Services | ServiceNow 
+This Service-now instance
+2020-05-03 19:11:53,802 dev: Service Selected 
+2020-05-03 19:11:53,852 dev: Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:53,879 dev: successfully switched to iframe
+2020-05-03 19:11:58,387 dev: Parent Window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:11:59,410 dev: Current New Window :Configuration Items | ServiceNow 
+2020-05-03 19:11:59,441 dev: Total Conf Item ~ 2,737
+2020-05-03 19:12:01,751 dev: Configuration item selected
+2020-05-03 19:12:01,821 dev: Switched to Parent window :Create PRB0040007 | Problem | ServiceNow 
+2020-05-03 19:12:01,929 dev: successfully switched to iframe
+2020-05-03 19:12:02,396 dev: State Value Fetched As ~New 
+2020-05-03 19:12:08,804 dev: Ticket Submitted
+2020-05-03 19:12:08,846 dev: successfully switched to iframe
+Problem Statement to Match ~ TESTLEAF CONTEST - 19:12:01 
+2020-05-03 19:12:08,857 dev: Search-icon Expanded ? true 
+2020-05-03 19:12:08,858 dev: Search Menu is Already Expanded
+2020-05-03 19:12:11,903 dev: Search Rows Found :1 
+2020-05-03 19:12:11,934 dev: Found Row/Rows with problem statement : TESTLEAF CONTEST - 19:12:01 
+2020-05-03 19:12:14,671 dev: Logged Out Successfully
+2020-05-03 19:12:17,960 dev: Test SN_Tests.Test_SN_Auto has been executed Successfully
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 69.03 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

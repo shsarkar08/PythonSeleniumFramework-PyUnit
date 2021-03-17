@@ -1,0 +1,14 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test_ServiceNow (SN_Tests.Test_SN_Auto.TestServiceNow) ... OK (69.026719)s
+
+----------------------------------------------------------------------
+Ran 1 test in 0:01:09
+
+OK
+
+
+
+Generating HTML reports... 
+..\Reports\TestResults_SN_Tests.Test_SN_Auto.TestServiceNow_2020-05-03_19-11-11.html
