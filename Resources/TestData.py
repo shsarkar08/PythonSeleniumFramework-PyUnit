@@ -5,8 +5,8 @@ class TestData:
 
     LOG_CONFIG_PATH ='..\\Config\\LogConfig.yaml'
     BASE_URL = "https://dev97889.service-now.com"
-    USERNAME = "admin"
-    PASSWORD = "Shahnawaz0893#"
+    USERNAME = "*****"
+    PASSWORD = "********"
     QUERY = "Problem"
     PROBLEM_STATEMENT = "TESTLEAF CONTEST - "
     STATE = "New"
